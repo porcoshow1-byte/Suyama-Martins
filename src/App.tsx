@@ -537,6 +537,16 @@ export default function App() {
                   </select>
                 </div>
 
+                <div className="space-y-1">
+                  <label className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Descrição da Demanda</label>
+                  <textarea 
+                    required
+                    rows={3}
+                    placeholder="Nos conte um pouco mais sobre o seu projeto ou necessidade..."
+                    className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:border-brand-blue focus:outline-none text-sm transition-all resize-none"
+                  ></textarea>
+                </div>
+
                 <button 
                   disabled={formState === 'loading'}
                   className="w-full bg-brand-blue text-white py-4 rounded-xl font-bold text-sm tracking-widest uppercase hover:bg-brand-blue-light transition-all flex items-center justify-center gap-3 disabled:opacity-70 shadow-lg shadow-brand-blue/30 active:scale-95 mt-4"
