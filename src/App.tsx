@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import logotipo from './assets/marca-principal.png';
-import logobranco from './assets/marca-branca.png';
+import logotipo from './assets/marca-branca.png';
+import logobranco from './assets/marca-principal.png';
 import { 
   ShieldCheck, 
   FileText, 
