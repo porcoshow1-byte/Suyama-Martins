@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
+import logotipo from './assets/logotipo.png';
+import logobranco from './assets/logobranco.png';
 import { 
   ShieldCheck, 
   FileText, 
@@ -48,7 +50,7 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-4 md:px-8 h-20 md:h-28 flex items-center justify-between">
         <div className="flex items-center">
           <img 
-            src="/logotipo.png" 
+            src={logotipo} 
             alt="Suyama & Martins Logo" 
             className="h-14 md:h-20 w-auto object-contain"
             referrerPolicy="no-referrer"
@@ -563,7 +565,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex items-center opacity-80">
             <img 
-              src="/logobranco.png" 
+              src={logobranco} 
               alt="Suyama & Martins Logo" 
               className="h-14 w-auto object-contain"
               referrerPolicy="no-referrer"
