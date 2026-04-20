@@ -53,7 +53,6 @@ const Navbar = () => {
             src={logotipo} 
             alt="Suyama & Martins Logo" 
             className="h-14 md:h-20 w-auto object-contain"
-            referrerPolicy="no-referrer"
           />
         </div>
 
@@ -568,7 +567,6 @@ export default function App() {
               src={logobranco} 
               alt="Suyama & Martins Logo" 
               className="h-14 w-auto object-contain"
-              referrerPolicy="no-referrer"
             />
           </div>
           
