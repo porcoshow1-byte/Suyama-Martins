@@ -156,7 +156,7 @@ export default function App() {
       <Navbar />
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 md:pt-60 md:pb-32 overflow-hidden">
+      <section className="relative pt-24 pb-20 md:pt-40 md:pb-32 overflow-hidden">
         {/* Background Patterns */}
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(45%_45%_at_50%_50%,rgba(10,61,126,0.05)_0%,transparent_100%)]" />
         <div className="absolute top-0 right-0 -z-10 w-1/2 h-full opacity-10 hidden lg:block">
