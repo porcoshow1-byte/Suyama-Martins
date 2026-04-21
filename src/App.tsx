@@ -408,8 +408,8 @@ export default function App() {
         <div className="grid lg:grid-cols-2 gap-20 items-center">
           <div className="order-2 lg:order-1">
             <div className="grid grid-cols-2 gap-4">
-              <img src={imgTulo} alt="Work" className="rounded-2xl h-80 object-cover" />
-              <img src={imgH1} alt="Work" className="rounded-2xl h-80 mt-12 object-cover" />
+              <img src={imgH1} alt="Work" className="rounded-2xl h-80 object-cover" />
+              <img src={imgTulo} alt="Work" className="rounded-2xl h-80 mt-12 object-cover" />
             </div>
           </div>
           <div className="order-1 lg:order-2">
