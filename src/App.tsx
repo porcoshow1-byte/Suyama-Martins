@@ -589,7 +589,7 @@ export default function App() {
           </div>
 
           <p className="text-slate-500 text-sm font-medium">
-            &copy; 2024 Suyama Martins Engenharia. Todos os direitos reservados.
+            &copy; 2026 Suyama Martins Engenharia. Todos os direitos reservados.
           </p>
         </div>
       </footer>
