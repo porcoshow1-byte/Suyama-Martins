@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import logotipo from './assets/marca-branca.png';
 import logobranco from './assets/marca-principal.png';
-import imgTulo from './assets/tulo-1.png';
-import imgH1 from './assets/h1.jpg';
+import fotoEquipe1 from './assets/foto-equipe1.jpg';
+import fotoEquipe2 from './assets/foto-equipe2.jpg';
 import { 
   ShieldCheck, 
   FileText, 
@@ -408,8 +408,8 @@ export default function App() {
         <div className="grid lg:grid-cols-2 gap-20 items-center">
           <div className="order-2 lg:order-1">
             <div className="grid grid-cols-2 gap-4">
-              <img src={imgH1} alt="Work" className="rounded-2xl h-80 object-cover" />
-              <img src={imgTulo} alt="Work" className="rounded-2xl h-80 mt-12 object-cover" />
+              <img src={fotoEquipe1} alt="Equipe de Engenharia apontando para projeto" className="rounded-2xl h-80 object-cover" />
+              <img src={fotoEquipe2} alt="Equipe Técnica Suyama Martins" className="rounded-2xl h-80 mt-12 object-cover" />
             </div>
           </div>
           <div className="order-1 lg:order-2">
